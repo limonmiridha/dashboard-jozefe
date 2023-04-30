@@ -1,3 +1,4 @@
+import TableActionIcon from '@/components/TableActionIcon';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from 'primereact/button';
@@ -641,7 +642,7 @@ export const newsData = [
     description: 'Lorem ipsum is a ...',
     date: '11 Apr 2023 - 13 Apr 2023',
     status: renderStatus('active'),
-    // actionIcon: <TableActionIcon />,
+    actionIcon: <TableActionIcon />,
   },
   {
     id: 2,
