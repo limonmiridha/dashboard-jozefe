@@ -1,9 +1,8 @@
 import React from 'react';
-import styles from '../styles/Button.module.css';
 
-const Button = ({ children, onClick }) => {
+const Button = ({ children, cls, onClick }) => {
   return (
-    <button className={styles.button} onClick={onClick}>
+    <button className={`flexs gap-2 ${cls}`} onClick={onClick}>
       {children}
     </button>
   );

@@ -53,6 +53,22 @@ function renderIcon(item) {
   return <Image src={item} width={20} height={20} alt="" />;
 }
 
+function renderStatus(status) {
+  return (
+    <div>
+      {status === 'active' ? (
+        <div className="bg-[#0DDFA4] px-4 py-1 rounded-md max-w-min">
+          Active
+        </div>
+      ) : (
+        <div className="bg-[#DEE4EC] px-4 py-1 rounded-md max-w-min">
+          Inactive
+        </div>
+      )}
+    </div>
+  );
+}
+
 export const memberCreditColumn = [
   {
     field: 'id',
@@ -587,5 +603,80 @@ export const rentalData = [
     m: renderIcon('/images/rental/redCheck.svg'),
     a: renderIcon('/images/rental/redCheck.svg'),
     m: renderIcon('/images/rental/redCheck.svg'),
+  },
+];
+export const newsColumn = [
+  {
+    field: 'id',
+    header: '#',
+    sort: true,
+  },
+  {
+    field: 'subject',
+    header: 'Subject',
+  },
+  {
+    field: 'description',
+    header: 'Description',
+    sort: true,
+  },
+  {
+    field: 'date',
+    header: 'Date',
+  },
+  {
+    field: 'status',
+    header: 'Status',
+  },
+
+  {
+    field: 'actionIcon',
+  },
+];
+
+export const newsData = [
+  {
+    id: 1,
+    subject: 'Subject of the News',
+    description: 'Lorem ipsum is a ...',
+    date: '11 Apr 2023 - 13 Apr 2023',
+    status: renderStatus('active'),
+    // actionIcon: <TableActionIcon />,
+  },
+  {
+    id: 2,
+    subject: 'Subject of the News',
+    description: 'Lorem ipsum is a ...',
+    date: '11 Apr 2023 - 13 Apr 2023',
+    status: renderStatus('inactive'),
+    invoice_amount: '50',
+    // actionIcon: <TableActionIcon />,
+  },
+  {
+    id: 3,
+    subject: 'Subject of the News',
+    description: 'Lorem ipsum is a ...',
+    date: '11 Apr 2023 - 13 Apr 2023',
+    status: renderStatus('inactive'),
+    invoice_amount: '35',
+    // actionIcon: <TableActionIcon />,
+  },
+  {
+    id: 4,
+    subject: 'Subject of the News',
+    description: 'Lorem ipsum is a ...',
+    date: '11 Apr 2023 - 13 Apr 2023',
+    status: renderStatus('active'),
+    invoice_amount: '20',
+    // actionIcon: <TableActionIcon />,
+  },
+  {
+    id: 5,
+    subject: 'Subject of the News',
+    description: 'Lorem ipsum is a ...',
+    date: '11 Apr 2023 - 13 Apr 2023',
+    status: renderStatus('active'),
+    invoice_amount: '30',
+    // actionIcon: <TableActionIcon />,
   },
 ];

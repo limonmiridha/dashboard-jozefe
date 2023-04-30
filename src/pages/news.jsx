@@ -4,7 +4,7 @@ import React, { useContext } from 'react';
 import { InputImg } from './property';
 import TextEditor from '@/components/TextEditor';
 import GlobalDataTable from '@/components/GlobalDataTable';
-import { memberCreditColumn, memberCreditData } from '@/data/TableData';
+import { newsColumn, newsData } from '@/data/TableData';
 import { TitleHeader, InnerHeader } from '@/components/Headers';
 import Button from '@/components/Button';
 
@@ -27,8 +27,8 @@ const news = () => {
       </Card>
 
       <GlobalDataTable
-        column={memberCreditColumn}
-        data={memberCreditData}
+        column={newsColumn}
+        data={newsData}
         tableTitle="All News"
         titleImg="/images/news/allNews.svg"
       />
