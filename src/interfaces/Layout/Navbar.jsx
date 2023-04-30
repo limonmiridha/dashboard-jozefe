@@ -43,14 +43,18 @@ const Navbar = () => {
       subTitle = 'Let’s get back to managing your property.';
       miniDesc = 'Information - Documents - Financials';
       break;
+    case '/accounting/rentalDashboard':
+      title = 'Rental Dashboard';
+      subTitle = 'Let’s get back to managing your rentals.';
+      break;
     case '/members':
       title = 'Members';
       subTitle = 'Let’s get back to managing your members.';
       miniDesc = 'Information - Documents - Financials';
       break;
-    case '/accounting/rentalDashboard':
-      title = 'Rental Dashboard';
-      subTitle = 'Let’s get back to managing your rentals.';
+    case '/memberProfile':
+      title = 'Member Profile';
+      subTitle = 'Let’s get back to managing your members.';
       break;
     case '/accounting/membersPayment':
       title = 'Member Payment';

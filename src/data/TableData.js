@@ -36,7 +36,9 @@ const renderViewButton = () => {
 
 const actionTemplate = () => (
   <div className="flexs gap-2">
-    <CustomButton label="Edit" className="edit" />
+    <Link href="/memberProfile">
+      <CustomButton label="View" className="edit" />
+    </Link>
     <CustomButton label="Delete" className="delete" />
   </div>
 );
