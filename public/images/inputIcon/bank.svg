@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23.5" height="21.41" viewBox="0 0 23.5 21.41">
+  <g id="Group_1" data-name="Group 1" transform="translate(-428.25 -189.34)">
+    <path id="Vector" d="M10-.75a1.79,1.79,0,0,1,.649.114l9,3.6a1.838,1.838,0,0,1,1.1,1.626V7.91A1.752,1.752,0,0,1,19,9.66H1A1.752,1.752,0,0,1-.75,7.91V4.59a1.839,1.839,0,0,1,1.1-1.626l9-3.6A1.79,1.79,0,0,1,10-.75ZM10.1.759a.535.535,0,0,0-.2,0L.909,4.356A.371.371,0,0,0,.75,4.59V7.91A.253.253,0,0,0,1,8.16H19a.253.253,0,0,0,.25-.25V4.59a.371.371,0,0,0-.159-.234Z" transform="translate(430 190.09)" fill="gray"/>
+    <path id="Vector-2" data-name="Vector" d="M20,4.75H0A.75.75,0,0,1-.75,4V1A1.752,1.752,0,0,1,1-.75H19A1.752,1.752,0,0,1,20.75,1V4A.75.75,0,0,1,20,4.75ZM.75,3.25h18.5V1A.253.253,0,0,0,19,.75H1A.253.253,0,0,0,.75,1Z" transform="translate(430 206)" fill="gray"/>
+    <path id="Vector-3" data-name="Vector" d="M0,7.75A.75.75,0,0,1-.75,7V0A.75.75,0,0,1,0-.75.75.75,0,0,1,.75,0V7A.75.75,0,0,1,0,7.75Z" transform="translate(432 199)" fill="gray"/>
+    <path id="Vector-4" data-name="Vector" d="M0,7.75A.75.75,0,0,1-.75,7V0A.75.75,0,0,1,0-.75.75.75,0,0,1,.75,0V7A.75.75,0,0,1,0,7.75Z" transform="translate(436 199)" fill="gray"/>
+    <path id="Vector-5" data-name="Vector" d="M0,7.75A.75.75,0,0,1-.75,7V0A.75.75,0,0,1,0-.75.75.75,0,0,1,.75,0V7A.75.75,0,0,1,0,7.75Z" transform="translate(440 199)" fill="gray"/>
+    <path id="Vector-6" data-name="Vector" d="M0,7.75A.75.75,0,0,1-.75,7V0A.75.75,0,0,1,0-.75.75.75,0,0,1,.75,0V7A.75.75,0,0,1,0,7.75Z" transform="translate(444 199)" fill="gray"/>
+    <path id="Vector-7" data-name="Vector" d="M0,7.75A.75.75,0,0,1-.75,7V0A.75.75,0,0,1,0-.75.75.75,0,0,1,.75,0V7A.75.75,0,0,1,0,7.75Z" transform="translate(448 199)" fill="gray"/>
+    <path id="Vector-8" data-name="Vector" d="M22,.75H0A.75.75,0,0,1-.75,0,.75.75,0,0,1,0-.75H22a.75.75,0,0,1,.75.75A.75.75,0,0,1,22,.75Z" transform="translate(429 210)" fill="gray"/>
+    <path id="Vector-9" data-name="Vector" d="M1.5-.75A2.25,2.25,0,1,1-.75,1.5,2.253,2.253,0,0,1,1.5-.75Zm0,3A.75.75,0,1,0,.75,1.5.751.751,0,0,0,1.5,2.25Z" transform="translate(438.5 193.5)" fill="gray"/>
+  </g>
+</svg>

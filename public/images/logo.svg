@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="477.049" height="85.196" viewBox="0 0 477.049 85.196">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_35" data-name="Rectangle 35" width="311.277" height="51.679" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_38" data-name="Rectangle 38" width="8.299" height="30.268" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_38403" data-name="Group 38403" transform="translate(-667 -408)">
+    <g id="Group_37287" data-name="Group 37287" transform="translate(667 408)">
+      <g id="Group_2675" data-name="Group 2675" transform="translate(0 0)">
+        <g id="Group_2670" data-name="Group 2670" transform="translate(0)">
+          <g id="Group_2669" data-name="Group 2669" clip-path="url(#clip-path)">
+            <path id="Path_27556" data-name="Path 27556" d="M-43.374,374.317a25.586,25.586,0,0,1,1.245-7.807,20.965,20.965,0,0,1,3.846-7.052q5.412-6.6,15.385-6.6t15.388,6.6A22.753,22.753,0,0,1-2.417,374.2,22.467,22.467,0,0,1-7.509,388.95q-5.412,6.714-15.388,6.713t-15.385-6.713a22.023,22.023,0,0,1-5.092-14.632Zm7.033,0a23.313,23.313,0,0,0,.717,5.525,14.743,14.743,0,0,0,2.546,5.412A11.7,11.7,0,0,0-22.9,390.571q6.829,0,10.184-5.316A20.25,20.25,0,0,0-9.565,374.2a18.608,18.608,0,0,0-3.148-10.841A11.339,11.339,0,0,0-22.9,357.95a11.648,11.648,0,0,0-10.181,5.412,18.034,18.034,0,0,0-3.263,10.956Zm40.861,0a25.585,25.585,0,0,1,1.245-7.807,20.982,20.982,0,0,1,3.846-7.052q5.412-6.6,15.388-6.6t15.385,6.6A22.75,22.75,0,0,1,45.477,374.2a22.465,22.465,0,0,1-5.092,14.747Q34.973,395.663,25,395.662T9.612,388.95A22.023,22.023,0,0,1,4.52,374.317Zm7.035,0a23.28,23.28,0,0,0,.715,5.525,14.75,14.75,0,0,0,2.545,5.412A11.708,11.708,0,0,0,25,390.571q6.825,0,10.181-5.316A20.25,20.25,0,0,0,38.329,374.2a18.608,18.608,0,0,0-3.148-10.841A11.337,11.337,0,0,0,25,357.95a11.652,11.652,0,0,0-10.184,5.412,18.033,18.033,0,0,0-3.261,10.956Zm84.419,16.894L84.6,360.006,73.1,391.212q-1.19,3.584-4.6,3.583a4.232,4.232,0,0,1-4.394-3.469L51.642,358.063a4.184,4.184,0,0,1-.208-1.243,4.071,4.071,0,0,1,.208-1.245,1.315,1.315,0,0,1,.774-.867,6.466,6.466,0,0,1,2.054-1.093,2.851,2.851,0,0,1,3.131,2.4l11.161,31.641,11.5-30.567a4.724,4.724,0,0,1,4.544-3.469,5.52,5.52,0,0,1,2.809.753,4.783,4.783,0,0,1,1.963,2.716l10.841,30.228,11.049-31.3q.755-2.4,2.811-2.4a3.028,3.028,0,0,1,2.223.923,2.709,2.709,0,0,1,.925,1.9,9.879,9.879,0,0,1-.113,1.621l-12.784,33.263q-1.076,3.47-4.112,3.469-3.47,0-4.449-3.583Zm30.338.547v-35a2.786,2.786,0,0,1,1.076-2.281,3.5,3.5,0,0,1,2.169-.868,2.76,2.76,0,0,1,2.923,1.736,12.282,12.282,0,0,1,.337,5.2q1.3-3.264,5.639-5.639a15.7,15.7,0,0,1,7.523-2.056,19.054,19.054,0,0,1,6.337.925,14.272,14.272,0,0,1,4.769,2.866q4.337,4.11,4.337,12.144v22.966a2.556,2.556,0,0,1-1.131,2.283,4.234,4.234,0,0,1-2.338.753,3.473,3.473,0,0,1-2.281-.81,2.755,2.755,0,0,1-.963-2.226v-23.4q0-5.092-2.828-7.805a8.825,8.825,0,0,0-6.5-2.6,13.543,13.543,0,0,0-8.881,3.036q-3.679,3.244-3.679,9.975v20.8a2.588,2.588,0,0,1-1.093,2.283,4.055,4.055,0,0,1-2.376.753,3.057,3.057,0,0,1-2.169-.81,2.9,2.9,0,0,1-.868-2.226Zm84.419-18.742q0,2.28-2.6,2.489h-29.7q.435,11.05,8.675,14.312a16.472,16.472,0,0,0,5.2.753q6.052,0,12.349-4.449a2.482,2.482,0,0,1,3.244.225,1.206,1.206,0,0,1,.433,1.3,2.746,2.746,0,0,1-.753,2.168q-5.959,5.959-15.708,5.845-8.9,0-14.312-5.751-6.07-5.959-6.07-15.708,0-8.993,5-14.838,5.186-6.5,14.726-6.507t14.52,5.733q4.771,5.206,5,14.426Zm-32.074-1.962h25.681a15.071,15.071,0,0,0-3.808-9.636q-3.243-3.467-9.316-3.469a11.755,11.755,0,0,0-8.881,3.9,15.129,15.129,0,0,0-3.677,9.2Zm78.875,1.962q0,2.28-2.6,2.489H225.251q.432,11.05,8.654,14.312a16.6,16.6,0,0,0,5.2.753q6.073,0,12.352-4.449a2.5,2.5,0,0,1,3.263.225,1.253,1.253,0,0,1,.433,1.3,2.747,2.747,0,0,1-.755,2.168q-5.975,5.959-15.725,5.845-8.882,0-14.293-5.751-6.073-5.959-6.072-15.708,0-8.993,4.98-14.838,5.2-6.5,14.745-6.507,9.523,0,14.518,5.733,4.772,5.206,4.979,14.426Zm-32.074-1.962H251.14a15,15,0,0,0-3.791-9.636q-3.241-3.467-9.314-3.469a11.813,11.813,0,0,0-8.9,3.9,15.117,15.117,0,0,0-3.677,9.2Zm0,0" transform="translate(49.299 -349.161)" fill="#1dc7da" stroke="#1dc7da" stroke-width="1"/>
+          </g>
+        </g>
+        <rect id="Rectangle_36" data-name="Rectangle 36" width="8.085" height="29.579" transform="translate(316.945 10.311)" fill="#6d8bc3"/>
+        <g id="Group_2672" data-name="Group 2672" transform="translate(326.789 10.093)">
+          <g id="Group_2671" data-name="Group 2671" clip-path="url(#clip-path-2)">
+            <image id="Rectangle_37" data-name="Rectangle 37" width="8.319" height="30.346" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAAEDCAIAAADobI6GAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFrSURBVHhe7dKxjQJBEADBgxQ+hcckDFIgRGIgjLchBTBw4A2kRUiXRK26nFmN19rZjDGW6WzXOZfvX/1dbs/Xe1349rufb9XpfL0//ted73j4nfMCq3JU5ajKUZWjKkdVjqocVTmqclTlqMpRlaMqR1WOqhxVOapyVOWoylGVoypHVY6qHFU5qnJU5ajKUZWjKkdVjqocVTmqclTlqMpRlaMqR1WOqhxVOapyVOWoylGVoypHVY6qHFU5qnJU5ajKUZWjKkdVjqocVTmqclTlqMpRlaMqR1WOqhxVOapyVOWoylGVoypHVY6qHFU5qnJU5ajKUZWjKkdVjqocVTmqclTlqMpRlaMqR1WOqhxVOapyVOWoylGVoypHVY6qHFU5qnJU5ajKUZWjKkdVjqocVTmqclTlqMpRlaMqR1WOqhxVOapyVOWoylGVoypHVY6qHFU5qnJU5ajKUZWjKsdmjLE+J9IFOmasWpYPI9kZqawTLM8AAAAASUVORK5CYII="/>
+          </g>
+        </g>
+        <g id="Group_2674" data-name="Group 2674" transform="translate(336.553 10.093)">
+          <g id="Group_2673" data-name="Group 2673" clip-path="url(#clip-path-2)">
+            <image id="Rectangle_39" data-name="Rectangle 39" width="8.319" height="30.346" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAAEDCAIAAADobI6GAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFWSURBVHhe7dKxEcIwFAVBm/4LogNqIMQVUIFFgJq4P7uJpPBG71xrHeM89jnL/qv35/t/z7Crnq/rvudMceYCVXWo6lDVoapDVYeqDlUdqjpUdajqUNWhqkNVh6oOVR2qOlR1qOpQ1aGqQ1WHqg5VHao6VHWo6lDVoapDVYeqDlUdqjpUdajqUNWhqkNVh6oOVR2qOlR1qOpQ1aGqQ1WHqg5VHao6VHWo6lDVoapDVYeqDlUdqjpUdajqUNWhqkNVh6oOVR2qOlR1qOpQ1aGqQ1WHqg5VHao6VHWo6lDVoapDVYeqDlUdqjpUdajqUNWhqkNVh6oOVR2qOlR1qOpQ1aGqQ1WHqg5VHao6VHWo6lDVoapDVYeqDlUdqjpUdajqUNWhqkNVh6oOVR2qOlR1qOpQ1aGqQ1WHqg5VHao6VHWo6lDVoapDVce51trXQSywY2LVcfwAabcV/T/vfbUAAAAASUVORK5CYII="/>
+          </g>
+        </g>
+      </g>
+      <text id="Property_Manager" data-name="Property Manager" transform="translate(241.049 78.196)" fill="#6d8bc3" font-size="27" font-family="SegoeUI, Segoe UI" letter-spacing="0.05em"><tspan x="0" y="0">Property Manager</tspan></text>
+    </g>
+  </g>
+</svg>

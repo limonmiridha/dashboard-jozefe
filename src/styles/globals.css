@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f8faf7;
+  font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+}
+
+/* custom css using tailwind */
+.flexs {
+  @apply flex items-center;
+}
+.justify-centers {
+  @apply flex justify-center items-center;
+}
+
+.justify-betweens {
+  @apply flex justify-between items-center;
+}
+.transitions {
+  @apply transition duration-300 ease-in;
+}
+
+/* scroll Bar */
+.right::-webkit-scrollbar,
+.sidebar::-webkit-scrollbar,
+.content::-webkit-scrollbar {
+  width: 0;
+}
+
+.box-shadow {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1), 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.selected,
+.selected a {
+  background-color: #017efb;
+  border-radius: 10px;
+  color: #fff !important;
+}
+
+@layer base {
+  /* .containerr {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto auto 340px;
+    grid-template-areas:
+      'n n n n n n n n n n n n'
+      'c c c c c c c c c c r r'
+      'c c c c c c c c c c r r';
+  } */
+  /* .right {
+    display: none;
+    grid-template-areas:
+      'n n n n n n n n n n n n'
+      'c c c c c c c c c c c c'
+      'c c c c c c c c c c c c';
+  } */
+
+  /* Modify the grid template to remove the right sidebar column when the sidebar isn't displayed */
+
+  .nav {
+    grid-area: n;
+  }
+
+  .content {
+    grid-area: c;
+    /* height: calc(100vh - 50px) !important; */
+  }
+  .right {
+    grid-area: r;
+    /* height: calc(100vh - 85px); */
+  }
+  @media only screen and (max-width: 1279.8px) {
+    .containerr {
+      grid-template-areas:
+        'n n n n n n n n n n n n'
+        'c c c c c c c c c c c c'
+        'c c c c c c c c c c c c';
+    }
+  }
+}
+
+/* Sidebar */
+.css-1wvake5 {
+  width: 270px !important;
+  min-width: 270px !important;
+}
+.css-1wvake5.ps-collapsed {
+  width: 80px !important;
+  min-width: 80px !important;
+}
+.css-1l5fxv3 {
+  width: 250px !important;
+  margin-top: 1rem !important;
+  padding: 1rem 0;
+}
+.menuItem:hover .normal-icon {
+  display: none;
+}
+.menuItem:hover .hover-icon {
+  display: block;
+}
+
+.sidebar li:hover a .ps-menu-suffix div {
+  background-color: #fff;
+  color: #333;
+}
+
+.css-in4fye {
+  margin-right: -4px !important;
+}
+.css-honxw6,
+.css-jn69v9 {
+  width: 10px !important;
+  height: 10px !important;
+}
+.subMenuItem .ps-menu-button:hover .normal-icons,
+.selected .normal-icon {
+  display: none;
+}
+.subMenuItem .ps-menu-button:hover .hover-icons,
+.selected .hover-icon {
+  display: block;
+}
+.subMenuItem .ps-menu-button:hover .css-honxw6,
+.subMenuItem .ps-menu-button:hover .css-jn69v9 {
+  color: #fff;
+}
+
+/* data Table */
+.p-inputtext {
+  background-color: #fafafa !important;
+  border: none !important;
+  /* width: 18rem; */
+}
+/* @media screen and (max-width: 768px) {
+  .p-inputtext {
+    width: 14rem;
+  }
+} */
+.p-datatable-header {
+  background-color: white !important;
+  border: none !important;
+}
+.p-datatable-thead,
+.p-datatable-tbody {
+  white-space: nowrap;
+}
+.p-datatable .p-datatable-tbody > tr > td img {
+  /* padding: 0.5rem !important; */
+  max-width: 1rem !important;
+}
+.p-button {
+  border: none !important;
+  font-size: 14px !important;
+  white-space: nowrap;
+}
+.p-button span {
+  font-weight: 500;
+}
+
+.viewBtn.p-button:hover {
+  background-color: #00ab8c !important;
+}
+.edit.p-button {
+  background-color: #017efa !important;
+}
+.edit.p-button:hover {
+  background-color: #0371df !important;
+}
+.delete.p-button {
+  background-color: #fd717a !important;
+}
+.delete.p-button:hover {
+  background-color: #f9616b !important;
+}
+.reminder.p-button {
+  background-color: #51cbff !important;
+}
+.reminder.p-button:hover {
+  background-color: #1fb4f4 !important;
+}
+/* .css-jn69v9 .css-honxw6 {
+  width: 10px !important;
+  height: 10px !important;
+} */
+
+.p-paginator .p-paginator-first,
+.p-paginator .p-paginator-last,
+.p-paginator .p-dropdown {
+  display: none;
+}
+.p-paginator {
+  justify-content: end !important;
+}
+.p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+  background-color: #5671ff !important;
+  color: #fff !important;
+}
+.p-paginator .p-paginator-pages .p-paginator-page {
+  border-radius: 6px !important;
+  min-width: 2rem !important;
+  height: 2rem !important;
+}
+
+/* Right bar */
+.overview-card {
+  background-color: #fff;
+  border-radius: 20px;
+  filter: drop-shadow(0px 10px 15px rgba(0, 0, 0, 0.1));
+}
+.bg-balance {
+  background-image: url('/images/bg-currency.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+  /* background-color: rgba(37, 37, 229, 0.498); */
+}
+/* calendar */
+.react-calendar {
+  max-width: 100%;
+  background-color: #fff;
+  color: #222;
+  border-radius: 10px;
+  border: none !important;
+  padding: 15px;
+  line-height: 1.125em;
+  font-size: 18px;
+}
+.react-calendar__navigation button {
+  color: #000;
+  min-width: 44px;
+  background: none;
+  font-size: 20px;
+  margin-top: 8px;
+  font-weight: 700;
+}
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background-color: #f8f8fa;
+}
+.react-calendar__navigation button[disabled] {
+  background-color: #f0f0f0;
+}
+abbr[title] {
+  text-decoration: none;
+}
+
+.react-calendar__tile:enabled:hover {
+  background-color: transparent;
+}
+.react-calendar__tile:enabled:focus {
+  background: transparent !important;
+  border-radius: 6px;
+}
+.react-calendar__tile--now {
+  background-color: #5671ff;
+  border-radius: 6px !important;
+  font-weight: bold;
+}
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+  background: #6f48eb33;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.react-calendar__tile--hasActive:enabled:hover,
+.react-calendar__tile--hasActive:enabled:focus {
+  background: #5671ff !important;
+}
+.react-calendar__tile--active {
+  background: #5671ff !important;
+  border-radius: 6px;
+  font-weight: bold;
+  color: white !important;
+}
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #5671ff !important;
+  color: white;
+}
+.react-calendar--selectRange
+  .react-calendar__tile--hover.react-calendar__tile--now {
+  background-color: #5671ff !important;
+  border-radius: 6px;
+}
+.react-calendar--selectRange .react-calendar__tile--hover,
+.react-calendar__tile--hoverStart {
+  background-color: transparent !important;
+}
+.react-calendar__tile--range {
+  background: #5671ff;
+  color: #ffffff !important;
+  border-radius: 0;
+}
+.react-calendar__tile--rangeStart {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background: #5671ff;
+  color: white;
+}
+/* react-calendar__tile--rangeEnd */
+
+.react-calendar__tile--rangeEnd {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 6px !important;
+  border-bottom-right-radius: 6px !important;
+  background: #5671ff !;
+  color: white;
+}
+.react-calendar__navigation__prev-button,
+.react-calendar__navigation__next-button {
+  display: none;
+}
+.react-calendar__navigation__label__labelText {
+  font-size: 18px;
+}
+.react-calendar__month-view__days__day--weekend {
+  color: #017efb;
+  /* background-color: #808bc5 !important; */
+  /* margin: 3px 6px; */
+  /* border-radius: 5px; */
+}
+/* Modal */
+.ReactModal__Content {
+  background-color: rgb(255, 255, 255) !important;
+  max-width: 45rem;
+  max-height: min-content;
+  margin: 0 auto;
+  border-radius: 0.5rem !important;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  transform: translateY(-100%);
+  transition: transform 0.4s ease-in-out;
+}
+.ReactModal__Content--after-open {
+  transform: translateY(0) !important;
+}
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.644) !important;
+  backdrop-filter: blur(3px);
+  z-index: 33;
+}
+/* taskModal */
+/* .taskBg {
+  background: url('/images/tasks/taskModalBg.svg') no-repeat;
+  background-position: right;
+} */
+/* Property Page */
+.css-13cymwt-control {
+  background-color: #fafafa !important;
+  border: none !important;
+  padding: 8px;
+}

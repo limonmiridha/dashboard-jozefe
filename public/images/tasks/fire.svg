@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="66" height="25" viewBox="0 0 66 25">
+  <g id="Group_38311" data-name="Group 38311" transform="translate(-384 -384)">
+    <rect id="Rectangle_17431" data-name="Rectangle 17431" width="66" height="25" rx="12.5" transform="translate(384 384)" fill="#808bc5"/>
+    <g id="Group_38220" data-name="Group 38220" transform="translate(-6)">
+      <text id="Fire" transform="translate(420 401)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Fire</tspan></text>
+    </g>
+    <path id="Path" d="M4.48-9.6a3.439,3.439,0,0,0,3.68-3.12,3.985,3.985,0,0,0-1.671-3.046c-.128-.114-.238-.212-.335-.308a4.761,4.761,0,0,1-1.27-2.556,4.81,4.81,0,0,0-1.318,2.22,3.239,3.239,0,0,0-.009,1.751l.677,1.87-1.792-.9A2.726,2.726,0,0,1,1.2-15.267l-.037-.109A8.669,8.669,0,0,0,.8-13.28a3.6,3.6,0,0,0,1.094,2.706A3.753,3.753,0,0,0,4.48-9.6m0,.8A4.336,4.336,0,0,1,0-13.28a15.946,15.946,0,0,1,1.12-4.48s.56,1.4.84,2.24A1.939,1.939,0,0,0,2.8-14.4a3.992,3.992,0,0,1,0-2.24A4.7,4.7,0,0,1,5.6-20a4.549,4.549,0,0,0,1.12,3.36c.56.56,2.24,1.68,2.24,3.92S6.862-8.8,4.48-8.8Z" transform="translate(396 410.9)" fill="#fff"/>
+  </g>
+</svg>

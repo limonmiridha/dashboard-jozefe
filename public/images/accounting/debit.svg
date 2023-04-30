@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_linear_card-receive" data-name="vuesax/linear/card-receive" transform="translate(-556 -508)">
+    <g id="card-receive">
+      <path id="Vector" d="M12.5.75H0A.75.75,0,0,1-.75,0,.75.75,0,0,1,0-.75H12.5a.75.75,0,0,1,.75.75A.75.75,0,0,1,12.5.75Z" transform="translate(558 516.5)" fill="gray"/>
+      <path id="Vector-2" data-name="Vector" d="M2,.75H0A.75.75,0,0,1-.75,0,.75.75,0,0,1,0-.75H2A.75.75,0,0,1,2.75,0,.75.75,0,0,1,2,.75Z" transform="translate(562 524.5)" fill="gray"/>
+      <path id="Vector-3" data-name="Vector" d="M4,.75H0A.75.75,0,0,1-.75,0,.75.75,0,0,1,0-.75H4A.75.75,0,0,1,4.75,0,.75.75,0,0,1,4,.75Z" transform="translate(566.5 524.5)" fill="gray"/>
+      <path id="Vector-4" data-name="Vector" d="M15.56,17.75H4.44c-2.11,0-3.292-.317-4.079-1.1S-.75,14.7-.75,12.61V4.39C-.75,2.3-.428,1.126.361.345S2.33-.75,4.44-.75H12.5a.75.75,0,0,1,.75.75.75.75,0,0,1-.75.75H4.44c-1.65,0-2.555.2-3.024.662S.75,2.764.75,4.39v8.22c0,1.626.2,2.516.666,2.978s1.374.662,3.024.662H15.56c1.65,0,2.555-.2,3.024-.662s.666-1.352.666-2.978V10.53a.75.75,0,1,1,1.5,0v2.08c0,2.092-.322,3.264-1.111,4.045S17.67,17.75,15.56,17.75Z" transform="translate(558 511.5)" fill="gray"/>
+      <path id="Vector-5" data-name="Vector" d="M0,6.75a.749.749,0,0,1-.287-.057A.75.75,0,0,1-.75,6V0A.75.75,0,0,1,0-.75.75.75,0,0,1,.75,0V4.189l.72-.72A.75.75,0,0,1,2.53,4.53l-2,2A.75.75,0,0,1,0,6.75Z" transform="translate(576 511.5)" fill="gray"/>
+      <path id="Vector-6" data-name="Vector" d="M2,2.75a.748.748,0,0,1-.53-.22l-2-2A.75.75,0,0,1-.53-.53.75.75,0,0,1,.53-.53l2,2A.75.75,0,0,1,2,2.75Z" transform="translate(574 515.5)" fill="gray"/>
+      <path id="Vector-7" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(556 508)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>
