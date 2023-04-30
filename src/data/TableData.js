@@ -651,7 +651,7 @@ export const newsData = [
     date: '11 Apr 2023 - 13 Apr 2023',
     status: renderStatus('inactive'),
     invoice_amount: '50',
-    // actionIcon: <TableActionIcon />,
+    actionIcon: <TableActionIcon />,
   },
   {
     id: 3,
@@ -660,7 +660,7 @@ export const newsData = [
     date: '11 Apr 2023 - 13 Apr 2023',
     status: renderStatus('inactive'),
     invoice_amount: '35',
-    // actionIcon: <TableActionIcon />,
+    actionIcon: <TableActionIcon />,
   },
   {
     id: 4,
@@ -669,7 +669,7 @@ export const newsData = [
     date: '11 Apr 2023 - 13 Apr 2023',
     status: renderStatus('active'),
     invoice_amount: '20',
-    // actionIcon: <TableActionIcon />,
+    actionIcon: <TableActionIcon />,
   },
   {
     id: 5,
@@ -678,6 +678,6 @@ export const newsData = [
     date: '11 Apr 2023 - 13 Apr 2023',
     status: renderStatus('active'),
     invoice_amount: '30',
-    // actionIcon: <TableActionIcon />,
+    actionIcon: <TableActionIcon />,
   },
 ];

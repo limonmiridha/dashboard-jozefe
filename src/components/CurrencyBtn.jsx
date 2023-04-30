@@ -12,7 +12,7 @@ const CurrencyBtn = ({ activeBg }) => {
         onClick={() => handleButtonClick(1)}
         className={`${
           active == 1 && `${activeBg ? activeBg : 'bg-blue-500 text-white'}`
-        } text-gray-500 px-3 py-1 md:py-[6px] rounded-tl-full rounded-bl-full bg-blue-100`}
+        } text-gray-500 px-3 py-1 rounded-tl-full rounded-bl-full bg-blue-100`}
       >
         <BsCurrencyDollar />
       </button>
@@ -20,7 +20,7 @@ const CurrencyBtn = ({ activeBg }) => {
         onClick={() => handleButtonClick(2)}
         className={`${
           active == 2 && `${activeBg ? activeBg : 'bg-blue-500 text-white'}`
-        } text-gray-500 px-3 py-1 md:py-[6px] rounded-tr-full rounded-br-full bg-blue-100`}
+        } text-gray-500 px-3 py-1 rounded-tr-full rounded-br-full bg-blue-100`}
       >
         <BsCurrencyEuro />
       </button>
