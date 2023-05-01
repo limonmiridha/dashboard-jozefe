@@ -14,8 +14,6 @@ import {
 
 import FileUploader from '@/components/FileUploader';
 import ProfilePicture from '@/components/ProfilePicture';
-import Dashboard from './dashboard';
-import DashboardRightbar from '@/components/Rightbar/DashboardRightbar';
 
 const Property = () => {
   return (

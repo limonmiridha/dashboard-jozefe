@@ -14,6 +14,7 @@ import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 import Image from 'next/image';
 import CurrencyBtn from './CurrencyBtn';
+import CapsuleBtn from './capsuleBtn';
 
 const GlobalDataTable = ({
   data,
@@ -21,6 +22,7 @@ const GlobalDataTable = ({
   tableTitle,
   titleImg,
   headerText,
+  capsuleBtn,
   tableHeader = true,
 }) => {
   const [selectedProducts, setSelectedProducts] = useState(null);
@@ -77,7 +79,7 @@ const GlobalDataTable = ({
                 <CurrencyBtn />
               </div>
             </>
-          ) : (
+          ) : capsuleBtn ? null : (
             <CurrencyBtn />
           )}
         </div>
@@ -93,15 +95,18 @@ const GlobalDataTable = ({
   return (
     <div className="py-4 mb-16 box-shadow relative">
       {tableHeader && (
-        <div className="flex items-center gap-4 p-4 border-b">
-          <Image
-            src={titleImg}
-            width={32}
-            height={32}
-            className=""
-            alt="property"
-          />
-          <p className="font-semibold">{tableTitle}</p>
+        <div className="justify-betweens p-4 border-b">
+          <div className="flexs gap-4">
+            <Image
+              src={titleImg}
+              width={32}
+              height={32}
+              className=""
+              alt="property"
+            />
+            <p className="font-semibold">{tableTitle}</p>
+          </div>
+          {capsuleBtn ? <CapsuleBtn /> : <CurrencyBtn />}
         </div>
       )}
 

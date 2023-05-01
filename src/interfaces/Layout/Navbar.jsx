@@ -38,6 +38,11 @@ const Navbar = () => {
       subTitle =
         'Welcome back Józef 👋, Let’s get back to managing your properties.';
       break;
+    case '/incidents':
+      title = 'Incident';
+      subTitle =
+        'Welcome back Józef 👋, Let’s get back to managing your properties.';
+      break;
     case '/property':
       title = 'Property';
       subTitle = 'Let’s get back to managing your property.';

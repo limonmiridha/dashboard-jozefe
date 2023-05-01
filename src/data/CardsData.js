@@ -105,3 +105,52 @@ export const rentalRightbarCards = [
     ],
   },
 ];
+export const incidentsCards = [
+  {
+    id: 1,
+    titleImg: '/images/incidents/newIncidents.svg',
+    title1: 'New Incident',
+    value1: '01',
+    triangle: '/images/yellowTri.svg',
+    link: '/incidents',
+  },
+  {
+    id: 2,
+    titleImg: '/images/incidents/pendingIncident.svg',
+    title1: 'Incident Pending',
+    value1: '254',
+    triangle: '/images/indigoTri.svg',
+    link: '/incidents',
+  },
+  {
+    id: 3,
+    titleImg: '/images/incidents/progressIncidents.svg',
+    title1: 'In Progress',
+    value1: '55',
+    triangle: '/images/blueTri.svg',
+    link: '/incidents',
+  },
+  {
+    id: 4,
+    titleImg: '/images/incidents/closeIncident.svg',
+    title1: 'Incident Close',
+    value1: '45',
+    triangle: '/images/redTri.svg',
+    link: '/incidents',
+  },
+  {
+    id: 5,
+    titleImg: '/images/incidents/priorityIncidents.svg',
+    title1: 'High Priority',
+    value1: '45',
+    triangle: '/images/deepBlueTri.svg',
+    link: '/incidents',
+  },
+  {
+    id: 6,
+    center: true,
+    titleImg: '/images/incidents/circlePlus.svg',
+    value1: 'Create Incident',
+    link: '/incidents',
+  },
+];

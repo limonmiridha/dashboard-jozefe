@@ -21,9 +21,9 @@ const Layout = ({ children }) => {
         <div className="nav border-b border-slate-200">
           <Navbar />
         </div>
-        <div className="containerr grid grid-cols-12 h-screen overflow-y-auto">
+        <div className="containerr grid grid-cols-12 h-screen place-content-start overflow-y-auto">
           <div
-            className={`m-4 content h-full ${
+            className={`m-4 content h-full  ${
               showRightbar ? 'xl:col-span-9' : 'col-span-12'
             }`}
           >
